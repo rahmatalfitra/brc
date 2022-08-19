@@ -1,0 +1,9 @@
+.cardtampilmobil {
+    max-width: 15rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rowcard {
+    justify-content: safe;
+}

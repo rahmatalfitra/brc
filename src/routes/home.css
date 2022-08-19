@@ -1,0 +1,79 @@
+/* Header */
+.headerblock {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    background-color: #f1f3ff;
+}
+
+.leftheadercol {
+    max-width: 750px;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+.rightheadercol {
+    width: 100%;
+}
+
+.imageheadblock {
+    z-index: 2;
+    max-width: 100%;
+    margin-top: -350px;
+}
+
+.imageheadbackground {
+    z-index: 1;
+    background-color: #0d279f;
+    max-width: 100%;
+    height: 200px;
+    margin: 25% -5% 0 0;
+    border-radius: 70px 0 0 0;
+}
+
+/* Blok:2 - Best Car Rental for any.... */
+.rowblock2 {
+    width: 100%;
+    padding: 5% 10%;
+}
+
+.imagerowblock2 {
+    max-width: 450px;
+}
+
+@media screen and ( max-width: 600px ) {
+    /* Header */
+    .headerblock {
+        display: table;
+        margin: 0;
+        background-color: #f1f3ff;
+    }
+
+    .leftheadercol {
+        max-width: 100%;
+        padding: 7% 7%;
+    }
+
+    .rightheadercol {
+        max-width: 100%;
+        padding: 2% 0%;
+    }
+
+    .imageheadblock {
+        z-index: 2;
+        max-width: 100%;
+        margin-top: -250px;
+        padding-left: 7%;
+    }
+
+    .imageheadbackground {
+        z-index: 1;
+        background-color: #0d279f;
+        max-width: 93%;
+        height: 150px;
+        margin: 15% 0 0 7%;
+        border-radius: 70px 0 0 0;
+    }
+}
