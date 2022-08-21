@@ -1,0 +1,37 @@
+.buttoncard {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.fontcolor {
+    color: white;
+}
+
+.cardtampilmobil {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardmobil {
+    padding: 20px;
+    width: 17rem;
+}
+
+.carddetail {
+    font-size: 12px;
+}
+
+.cardimage {
+    height: 100px;
+    border-radius: 10px;
+}

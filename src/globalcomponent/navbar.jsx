@@ -11,6 +11,7 @@ import {
     NavItem,
     NavLink,
     Nav,
+    Row,
     Card, CardBody, CardTitle, CardText, Container
   } from "reactstrap";
   
@@ -20,24 +21,29 @@ import {
     const toggle = () => setIsOpen(!isOpen);
   
     return (
-      <div>
-        <Container className='navbarcolor'>
-            <Navbar  expand="md">
-                <NavbarBrand href="/">reactstrap</NavbarBrand>
+            <Navbar  expand="md navbarcolor" >
+
+                <NavbarBrand href="/">BRC</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="justify-content-end" navbar>
+
+                
+                <Collapse isOpen={isOpen} navbar >
+                    <Nav className='ml-auto' navbar>
                     <NavItem>
-                        <NavLink href="/mobil">Cari Mobil</NavLink>
+                        <NavLink href="/#bestcar">Our Service</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">GitHub</NavLink>
+                        <NavLink href="/#whyus">Why us</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#testimoni">Testimonial</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#faq">FAQ</NavLink>
                     </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
-        </Container>
-      </div>
     );
   };
   

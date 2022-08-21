@@ -1,3 +1,22 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
 /* Header */
 .headerblock {
     display: flex;
@@ -9,13 +28,14 @@
 .leftheadercol {
     max-width: 750px;
     padding-left: 10%;
-    padding-top: 5%;
-    padding-right: 10%;
+    padding-top: 4%;
     justify-content: center;
 }
 
 .rightheadercol {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .imageheadblock {
@@ -27,9 +47,10 @@
 .imageheadbackground {
     z-index: 1;
     background-color: #0d279f;
-    max-width: 100%;
+    width: 100%;
     height: 200px;
-    margin: 25% -5% 0 0;
+    margin: 25% -5% -25px 0;
+    padding-top: 50px;
     border-radius: 70px 0 0 0;
 }
 
@@ -43,9 +64,107 @@
     max-width: 450px;
 }
 
+/* Why Us */
+.whyusblok3 {
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.cardbox {
+    width: 16rem;
+}
+
+.iconwhyus {
+    border-radius: 100%;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.iconyellow{
+    background-color: #f9cc00;
+}
+
+.iconred {
+    background-color: #fa2c5a;
+}
+
+.iconblue {
+    background-color: #0d28a6;
+}
+
+.icongreen {
+    background-color: #5cb85f;
+}
+
+.textcard {
+    font-size: 13px;
+}
+
+/* Testimonial */
+.bloktestimoni {
+    max-width: 100%;
+    background-color: #f1f3ff;
+    padding: 5% 20%;
+}
+
+.bloktestimoni2 {
+    display: flex;
+}
+
+.testigambar {
+    max-width: 250px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bulat {
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.testitulisan {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+/* Sewa Mobil Sekarang */
+.backsewamobil {
+    background-color: #0d279f;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.sewamobil {
+    padding: 3% 20% 0 20%;
+}
+
+/* FAQ */
+.faqblok {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.faqblokleft {
+    margin-right: 50px;
+}
+
+.faqdes {
+    font-size: 14px;
+}
+
+
 @media screen and ( max-width: 600px ) {
     /* Header */
     .headerblock {
+        width: 100%;
         display: table;
         margin: 0;
         background-color: #f1f3ff;
@@ -58,7 +177,8 @@
 
     .rightheadercol {
         max-width: 100%;
-        padding: 2% 0%;
+        padding: 20px 0 0 0;
+        margin-bottom: -25px;
     }
 
     .imageheadblock {
@@ -75,5 +195,94 @@
         height: 150px;
         margin: 15% 0 0 7%;
         border-radius: 70px 0 0 0;
+    }
+
+    /* Blok 2 */
+    .rowblock2 {
+        display: table;
+        width: 100%;
+        padding-top: 15%;
+    }
+    
+    .imagerowblock2 {
+        max-width: 100%;
+    }
+
+    .isiblok2 {
+        width: 100%;
+        padding: 50px 10px 10px 10px;
+    }
+
+    /* Whyus blok3 */
+    .whyusblok3 {
+        width: 100%;
+        display: table;
+        padding-left: 20px;
+    }
+
+    .cardbox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Testimoni */
+
+    .bloktestimoni {
+        max-width: 100%;
+        background-color: #f1f3ff;
+        padding: 5% 5%;
+    }
+
+    .bloktestimoni2 {
+        display: table;
+    }
+
+    .bulat {
+        border-radius: 100%;
+        max-width: 150px;
+       margin-bottom: 20px;
+    }
+
+    .testigambar {
+        padding-top: 20px;
+        max-width: 100%;
+    }
+
+    .testitulisan {
+        padding: 20px;
+        margin: 10px;
+        text-align: start;
+    }
+
+    /* Sewa Mobil Sekarang */
+    .backsewamobil {
+        background-color: #0d279f;
+        border-radius: 20px;
+        padding: 30px;
+        color: white;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .sewamobil {
+        padding: 2% 2% 0 2%;
+    }
+
+    .jarak {
+        padding: 20px;
+    }
+
+    /* FAQ */
+    .rowfaq {
+        display: table;
+    }
+
+    .faqblokleft {
+       width: 100%;
+       margin: 0;
+    }
+
+    .centerfaq {
+        text-align: center;
     }
 }

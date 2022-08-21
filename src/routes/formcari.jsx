@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
+import { Button, Form, FormGroup, Input, Label, Row, Col, Container } from "reactstrap";
 
   const FormHandling = ({mobil, setResult}) => {
     const [formNamaMobil, setFormNamaMobil] = useState();
@@ -40,6 +40,7 @@ import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
               return item.status===false;
             } else return item.status===true;
           } 
+
           
         // return (
         //     item.name === formNamaMobil &&
@@ -53,14 +54,18 @@ import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
 
 
     return (
-        <div>
-          <h1> Ini test form</h1>
+        <Container className="containerform">
+          <p><b>Pencarianmu</b></p>
           <Form>
+                <Row className="formpencarian">
+                  <Col>
                 <FormGroup>
                     <Label>Nama Kendaraan</Label>
                     <Input type="text" id="namamobil" onChange={(e)=>setFormNamaMobil(e.target.value) } placeholder="Isikan Nama Mobil"> </Input>
                 </FormGroup>
+                </Col>
 
+                <Col>
                 <FormGroup>
                     <Label>Pilih Kategori</Label>
                     <Input type="select" name="kategorimobil" id="kategori" onChange={(e)=>setFormKategori(e.target.value)}>
@@ -70,7 +75,9 @@ import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
                         <option>6 - 8 orang</option>
                     </Input>
                 </FormGroup>
+                </Col>
 
+                <Col>
                 <FormGroup>
                     <Label>Harga</Label>
                     <Input type="select" name="harga" id="harga" onChange={(e)=>setFormHargaMobil(e.target.value)}>
@@ -80,7 +87,9 @@ import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
                         <option>Rp. 800.000 - ~</option>
                     </Input>
                 </FormGroup>
+                </Col>
 
+                <Col>
                 <FormGroup>
                     <Label>Status</Label>
                     <Input type="select" name="status" id="status" onChange={(e)=>setFormStatus(e.target.value)}>
@@ -89,11 +98,15 @@ import { Button, Form, FormGroup, Input, Label, Row } from "reactstrap";
                         <option>Sedang Disewa</option>
                     </Input>
                 </FormGroup>
+                </Col>
 
-
-              <Button type="submit" onClick={(e)=>{handleSubmit(e)}}>Cari Mobil</Button>
+                <Col>
+                <br/>
+              <Button className="buttoncari" type="submit" onClick={(e)=>{handleSubmit(e)}}>Cari Mobil</Button>
+              </Col>
+              </Row>
           </Form>
-        </div>
+        </Container>
     )
   }
 

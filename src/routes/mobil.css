@@ -5,5 +5,14 @@
 }
 
 .rowcard {
-    justify-content: safe;
+    justify-content: space-between;
+}
+
+.rowbackcolor {
+    height: 200px;
+    background-color: #f1f3ff;
+}
+
+.paddingshowcard {
+    margin-bottom: 70px;
 }

@@ -1,8 +1,38 @@
+.color {
+    background-color: brown;
+}
+
 .navbarcolor {
+    width: 100%;
     background-color: #f1f3ff;
+    justify-content: space-between;
+}
+
+.navbarcontainer {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 0 30px; */
 }
 
 .navbarblok {
     display: flex;
     justify-content: space-between;
+}
+
+.navbarpopmenu {
+    justify-content: end;
+    background-color: bisque;
+}
+
+.teswarna {
+    background-color: aqua;
+}
+
+@media screen and (max-width : 600px) {
+    .navbarcontainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
 }

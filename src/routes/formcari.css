@@ -1,0 +1,32 @@
+.buttoncari {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.containerform {
+    margin-top: -100px;
+    margin-bottom: 70px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: ghostwhite;
+    background-color: white;
+    padding: 30px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .formpencarian {
+        display: table;
+        width: 100%;
+    }
+}
