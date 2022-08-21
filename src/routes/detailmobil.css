@@ -1,3 +1,57 @@
-.test {
-    
+.rowbackcolor {
+    height: 200px;
+    background-color: #f1f3ff;
+}
+
+.colkiri {
+    width: 50rem;
+    border-style: solid;
+    border-color:#f1f3ff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.colkanan {
+    width: 100%;
+    border-style: solid;
+    border-color:#f1f3ff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.imgdetail {
+    max-width: 350px;
+}
+
+.padding {
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width:500px) {
+    .imgdetail {
+        max-width: 100%;
+    }
+
+    .rowdisplay {
+        display: table;
+        flex-direction: row-reverse;
+    }
+
+    .colkiri {
+        width: 100%;
+        border-style: solid;
+        border-color:#f1f3ff;
+        border-radius: 20px;
+    }
+
+    .colkanan {
+        width: 100%;
+        border-style: solid;
+        border-color:#f1f3ff;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 5px;
+    }
 }

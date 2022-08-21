@@ -6,7 +6,7 @@ const CardResult = ({item}) => {
     return (
         // <Container>
             <Row className="cardtampilmobil">
-                <Card className="cardmobil" style={{width: '18rem' }}>
+                <Card className="cardmobil">
                         <img className="cardimage" src= {item.image} alt="Gambar mobil" />
                         <CardTitle> {item.name} </CardTitle>
                         <CardSubtitle> {item.price} </CardSubtitle>
