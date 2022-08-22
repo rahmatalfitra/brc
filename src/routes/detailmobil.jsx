@@ -44,7 +44,7 @@ const MobilDetail = () => {
         <FormHandling />
 
         {!loading ? (
-            <Container className="padding" >
+            <Container className="paddingdetail" >
             <Row className="rowdisplay">
                 <Col className="colkiri">
                     <h6><b>Tentang Paket</b></h6>

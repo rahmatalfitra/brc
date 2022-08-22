@@ -9,6 +9,7 @@ import Car from './routes/mobil';
 import LandingPage from './routes/home';
 import MobilDetail from './routes/detailmobil';
 import FormPencarian from './routes/formpencarian';
+import NotFound from './routes/404notfound';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="formpencarian">
         <Route index element={<FormPencarian />} />
       </Route>
+      <Route path='*' element={<NotFound />} />
     </Routes>
   );
 }

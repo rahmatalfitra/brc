@@ -27,8 +27,7 @@
 
 .leftheadercol {
     max-width: 750px;
-    padding-left: 10%;
-    padding-top: 4%;
+    padding: 5% 10%;
     justify-content: center;
 }
 
@@ -48,8 +47,8 @@
     z-index: 1;
     background-color: #0d279f;
     width: 100%;
-    height: 200px;
-    margin: 25% -5% -25px 0;
+    height: 260px;
+    margin: 30% -5% -25px 0;
     padding-top: 50px;
     border-radius: 70px 0 0 0;
 }
@@ -103,10 +102,18 @@
 }
 
 /* Testimonial */
+.backtesti {
+    padding: 50px;
+    background-color: #f1f3ff;
+}
+
 .bloktestimoni {
     max-width: 100%;
     background-color: #f1f3ff;
-    padding: 5% 20%;
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .bloktestimoni2 {
@@ -230,7 +237,10 @@
     .bloktestimoni {
         max-width: 100%;
         background-color: #f1f3ff;
-        padding: 5% 5%;
+        padding-top: 0;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .bloktestimoni2 {

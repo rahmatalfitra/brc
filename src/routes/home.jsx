@@ -99,13 +99,14 @@ const LandingPage = () => {
     const Testimoni = () => {
         return(
             <>
-            <Row id="testimoni">
-            <h3 className="center"><b>Testimonial</b></h3>
-            <p className="center">Berbagai review positif dari para pelanggan kami.</p>
+            <Row id="testimoni" className="backtesti">
+                        <h3 className="center"><b>Testimonial</b></h3>
+                        <p className="center">Berbagai review positif dari para pelanggan kami.</p>
             </Row>
 
             <Carousel showArrows={true} autoPlay >
                 <Container className="bloktestimoni">
+                    
                     <Row className="bloktestimoni2">
                         <Col className="testigambar">
                             <img className="bulat" src="./images/person1.jpg" />
