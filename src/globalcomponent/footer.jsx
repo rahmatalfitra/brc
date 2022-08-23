@@ -17,10 +17,10 @@ const Footer = () => {
 
             <Col className="linkmenu">
                 <Nav className="navlinkfooter">
-                    <NavLink href="/#bestcar">Our Services</NavLink>
-                    <NavLink href="/#whyus">Why Us</NavLink>
-                    <NavLink href="/#testimoni">Testimonial</NavLink>
-                    <NavLink href="/#faq">FAQ</NavLink>
+                    <NavLink href="/#bestcar" className="navlinkfooter">Our Services</NavLink>
+                    <NavLink href="/#whyus" className="navlinkfooter">Why Us</NavLink>
+                    <NavLink href="/#testimoni" className="navlinkfooter">Testimonial</NavLink>
+                    <NavLink href="/#faq" className="navlinkfooter">FAQ</NavLink>
                 </Nav>
             </Col>
 

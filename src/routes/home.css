@@ -59,6 +59,10 @@
     padding: 5% 10%;
 }
 
+.isiblok2 {
+    padding-top: 100px;
+}
+
 .imagerowblock2 {
     max-width: 450px;
 }
@@ -179,7 +183,7 @@
 
     .leftheadercol {
         max-width: 100%;
-        padding: 7% 7%;
+        padding: 7% 12%;
     }
 
     .rightheadercol {
